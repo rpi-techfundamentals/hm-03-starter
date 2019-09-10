@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> round(generate_accuracy(df.loc[0:2,'predicted'], df.loc[0:2,'actual']),2)
-          33.3
+          33.33
           """,
           'hidden': False,
           'locked': False
