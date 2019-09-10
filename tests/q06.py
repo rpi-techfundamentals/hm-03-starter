@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> generate_accuracy(example_data.predicted, example_data.actual)
+          >>> generate_accuracy(df.predicted, df.actual)
           50.0
           """,
           'hidden': False,
@@ -19,7 +19,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        }   
+        }
       ],
       'scored': True,
       'setup': '',

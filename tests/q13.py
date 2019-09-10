@@ -6,32 +6,32 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sum(train.PredGenderAge13)
-          351.0
+          >>> int(sum(train.PredGenderAge13))
+          351
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> sum(test.PredGenderAge13)
-          168.0 
+          >>> int(sum(test.PredGenderAge13))
+          168
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> sum(train.PredGenderAge18)
-          385.0
+          >>> int(sum(train.PredGenderAge18))
+          385
           """,
           'hidden': False,
           'locked': False
-        },        
+        },
         {
           'code': r"""
-          >>> sum(test.PredGenderAge18)
-          182.0
+          >>> int(sum(test.PredGenderAge18))
+          182
           """,
           'hidden': False,
           'locked': False
@@ -44,4 +44,3 @@ test = {
     }
   ]
 }
-
