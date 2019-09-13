@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> round(AccGenderAge18,2)
-          76.09
+          77.33
           """,
           'hidden': False,
           'locked': False
