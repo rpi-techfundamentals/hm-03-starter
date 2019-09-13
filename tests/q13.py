@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> int(sum(test.PredGenderAge13))
-          168
+          165
           """,
           'hidden': False,
           'locked': False
@@ -23,7 +23,7 @@ test = {
         {
           'code': r"""
           >>> int(sum(train.PredGenderAge18))
-          385
+          372
           """,
           'hidden': False,
           'locked': False
@@ -31,7 +31,7 @@ test = {
         {
           'code': r"""
           >>> int(sum(test.PredGenderAge18))
-          182
+          176
           """,
           'hidden': False,
           'locked': False
