@@ -6,16 +6,16 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sum(train.PredGender)
-          314.0
+          >>> int(sum(train.PredGender))
+          314
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> sum(test.PredGender)
-          152.0
+          >>> int(sum(test.PredGender))
+          152
           """,
           'hidden': False,
           'locked': False
